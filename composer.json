@@ -11,122 +11,17 @@
     ],
     "require": {
         "php": "^8.2",
-        "velt/kernel": "dev-main",
-        "velt/http": "dev-main",
-        "velt/ui": "dev-main",
-        "velt/database": "dev-main",
-        "velt/orm": "dev-main",
-        "velt/cli": "dev-main",
-        "velt/preview-session-store": "dev-main",
-        "velt/preview-endpoints": "dev-main",
-        "velt/preview-json-contract": "dev-main",
-        "velt/preview-qr-cli": "dev-main"
+        "velt/kernel": "^0.1.0",
+        "velt/http": "^0.1.0",
+        "velt/ui": "^0.0.2",
+        "velt/database": "^0.1.0",
+        "velt/orm": "^0.1.0",
+        "velt/cli": "^0.2.0",
+        "velt/preview": "^0.1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.5"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../veltphp-kernel/packages/kernel",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/kernel": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../veltphp-http/package",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/http": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../velt-ui",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/ui": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../velt-database",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/database": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../veltphp-orm",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/orm": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../veltphp-cli",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/cli": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../velt-preview/preview-session-store",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/preview-session-store": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../velt-preview/preview-endpoints",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/preview-endpoints": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../velt-preview/preview-json-contract",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/preview-json-contract": "dev-main"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../velt-preview/preview-qr-cli",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "velt/preview-qr-cli": "dev-main"
-                }
-            }
-        }
-    ],
     "suggest": {
         "velt/skeleton": "Install the application skeleton when starting a new Velt project."
     },
