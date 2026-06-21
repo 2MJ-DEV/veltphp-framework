@@ -13,7 +13,7 @@
         "php": "^8.2",
         "velt/kernel": "^0.1.0",
         "velt/http": "^0.1.0",
-        "velt/ui": "^0.0.2",
+        "velt/ui": "^0.1.0",
         "velt/database": "^0.1.0",
         "velt/orm": "^0.1.0",
         "velt/cli": "^0.2.0",
