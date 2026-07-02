@@ -29,7 +29,7 @@ The first Module 3 task is to create the framework meta-package, document local 
 
 | Velt Framework | PHP | Kernel | HTTP | UI | Database | ORM | CLI | Preview | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `^0.1.0` | `^8.2` | `^0.1.0` | `^0.1.0` | `^0.0.2` | `^0.1.0` | `^0.1.0` | `^0.2.0` | `^0.1.0` | active development |
+| `^0.1.0` | `^8.2` | `^0.1.0` | `^0.1.0` | `^0.1.0` | `^0.1.0` | `^0.1.0` | `^0.2.0` | `^0.1.0` | active development |
 
 ## Package Policy
 
